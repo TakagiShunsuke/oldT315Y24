@@ -5,21 +5,200 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638468554005159827
-    m_Hash: 3841823420
+      ticks: 638468666048143752
+    m_Hash: 1591344698
   m_LockFileStatus:
     m_FilePath: C:/Users/81805/Documents/GitHub/T315Y24/T315Y24/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638468554154450100
-    m_Hash: 3065126310
+      ticks: 638468666048200631
+    m_Hash: 2805978517
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
+    - packageId: com.spoiledcat.git@1.0.27
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.27
+      source: 1
+      resolvedPath: C:\Users\81805\Documents\GitHub\T315Y24\T315Y24\Library\PackageCache\com.spoiledcat.git@1.0.27
+      assetPath: Packages/com.spoiledcat.git
+      name: com.spoiledcat.git
+      displayName: Git for Unity
+      author:
+        name: 
+        email: shana@spoiledcat.net
+        url: 
+      category: 
+      type: 
+      description: Git for Unity brings [Git](https://git-scm.com/) into [Unity](https://unity3d.com/),
+        integrating source control into your work with friendly and accessible tools
+        and workflows.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.9
+        - 1.0.11
+        - 1.0.12
+        - 1.0.18
+        - 1.0.27
+        compatible:
+        - 1.0.9
+        - 1.0.11
+        - 1.0.12
+        - 1.0.18
+        - 1.0.27
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: scoped:spoiledcat
+        name: spoiledcat
+        url: https://registry.spoiledcat.com
+        scopes:
+        - com.spoiledcat
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 638443917094020000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+ssh://git@github.com/spoiledcat/git-for-unity.git
+        revision: f3c613e814fc23cbec62c165463b77993ea7737d
+        path: 
+    - packageId: com.spoiledcat.git.api@1.0.27
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.27
+      source: 1
+      resolvedPath: C:\Users\81805\Documents\GitHub\T315Y24\T315Y24\Library\PackageCache\com.spoiledcat.git.api@1.0.27
+      assetPath: Packages/com.spoiledcat.git.api
+      name: com.spoiledcat.git.api
+      displayName: Git for Unity API
+      author:
+        name: 
+        email: shana@spoiledcat.net
+        url: 
+      category: 
+      type: 
+      description: Git for Unity API library. This package contains all the functionality
+        of Git for Unity, without any UI. Git for Unity brings [Git](https://git-scm.com/)
+        into [Unity](https://unity3d.com/), integrating source control into your
+        work with friendly and accessible tools and workflows.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.9
+        - 1.0.11
+        - 1.0.12
+        - 1.0.18
+        - 1.0.27
+        compatible:
+        - 1.0.9
+        - 1.0.11
+        - 1.0.12
+        - 1.0.18
+        - 1.0.27
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: scoped:spoiledcat
+        name: spoiledcat
+        url: https://registry.spoiledcat.com
+        scopes:
+        - com.spoiledcat
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 638443917121960000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+ssh://git@github.com/spoiledcat/git-for-unity.git
+        revision: f3c613e814fc23cbec62c165463b77993ea7737d
+        path: 
+    - packageId: com.spoiledcat.git.ui@1.0.27
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.27
+      source: 1
+      resolvedPath: C:\Users\81805\Documents\GitHub\T315Y24\T315Y24\Library\PackageCache\com.spoiledcat.git.ui@1.0.27
+      assetPath: Packages/com.spoiledcat.git.ui
+      name: com.spoiledcat.git.ui
+      displayName: Git for Unity UI
+      author:
+        name: 
+        email: shana@spoiledcat.net
+        url: 
+      category: 
+      type: 
+      description: Git for Unity brings [Git](https://git-scm.com/) into [Unity](https://unity3d.com/),
+        integrating source control into your work with friendly and accessible tools
+        and workflows.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.9
+        - 1.0.11
+        - 1.0.12
+        - 1.0.18
+        - 1.0.27
+        compatible:
+        - 1.0.9
+        - 1.0.11
+        - 1.0.12
+        - 1.0.18
+        - 1.0.27
+        verified: 
+      dependencies:
+      - name: com.spoiledcat.git.api
+        version: 1.0.27
+      resolvedDependencies:
+      - name: com.spoiledcat.git.api
+        version: 1.0.27
+      keywords: []
+      registry:
+        id: scoped:spoiledcat
+        name: spoiledcat
+        url: https://registry.spoiledcat.com
+        scopes:
+        - com.spoiledcat
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 638443917142330000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+ssh://git@github.com/spoiledcat/git-for-unity.git
+        revision: f3c613e814fc23cbec62c165463b77993ea7737d
+        path: 
     - packageId: com.unity.collab-proxy@1.15.15
       testable: 0
       isDirectDependency: 1
