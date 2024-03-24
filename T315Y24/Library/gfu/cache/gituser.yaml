@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: com.spoiledcat.git.ui:Unity.VersionControl.Git:GitUserCache
   cacheType: 8
-  lastUpdatedAtString: 2024-03-24T17:17:36.541+09:00
-  initializedAtString: 2024-03-24T17:17:36.539+09:00
+  lastUpdatedAtString: 2024-03-24T17:43:35.694+09:00
+  initializedAtString: 2024-03-24T17:43:35.692+09:00
   gitName: TakagiShunsuke
   gitEmail: 149446567+TakagiShunsuke@users.noreply.github.com
